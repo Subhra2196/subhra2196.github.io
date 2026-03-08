@@ -81,6 +81,12 @@ section {
 
 /* ML demo */
 
+#ml {
+    padding: 60px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
 #ml input {
     display: block;
     margin: 10px auto;
@@ -88,13 +94,12 @@ section {
     width: 220px;
 }
 
-button {
+#ml button {
     padding: 10px 20px;
-    background: #4c6daf;
+    background: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 /* Footer */
