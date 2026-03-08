@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #111;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #8e4caf;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background: white;
+    color: #af724c;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Sections */
+
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Projects */
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 260px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ML demo */
+
+#ml input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 220px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4c6daf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    background: #111;
+    color: white;
+    padding: 20px;
+}
