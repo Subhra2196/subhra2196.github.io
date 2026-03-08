@@ -104,3 +104,14 @@ footer {
     color: white;
     padding: 20px;
 }
+
+#contact {
+    background: #f0f0f0;
+    padding: 50px;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
