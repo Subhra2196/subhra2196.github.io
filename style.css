@@ -115,3 +115,8 @@ footer {
     text-decoration: none;
     font-weight: bold;
 }
+
+.project-container {
+    display: flex;
+    justify-content: center;
+}
